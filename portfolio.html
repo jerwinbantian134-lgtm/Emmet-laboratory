@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        nav ul { list-style: none; padding: 0; display: flex; gap: 15px; }
+        .card { border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; }
+        form div { margin-bottom: 10px; }
+        label { display: block; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>JERWIN BANTIAN</h1>
+        <p>I am a student who loves building websites.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main id="home">
+        <section id="about">
+            <h2>About</h2>
+            <p>Hi! I am a student learning web development. I enjoy creating simple web pages and learning new tools.</p>
+            <img src="images/profile.jpg" alt="Profile Photo" width="150">
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>Git</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="card">
+                <h3>Project 1</h3>
+                <p>This is the description of project 1.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="card">
+                <h3>Project 2</h3>
+                <p>This is the description of project 2.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="card">
+                <h3>Project 3</h3>
+                <p>This is the description of project 3.</p>
+                <a href="#">View Project</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="#" method="post">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div>
+                    <label for="subject">Subject</label>
+                    <input type="text" name="subject" id="subject">
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="5"></textarea>
+                </div>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - JERWIN BANTIAN</p>
+    </footer>
+</body>
+</html>
